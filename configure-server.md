@@ -4,10 +4,11 @@
     sudo yum install epel-release
     sudo yum install openvpn easy-rsa
 
-cd /etc/openvpn
-sudo vi server.conf
+    cd /etc/openvpn
+    sudo vi server.conf
 
 # now work as root
+
     sudo -s
     cd /usr/share/easy-rsa/2.0/
     source vars
